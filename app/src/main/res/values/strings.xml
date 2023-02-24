@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Buddhavaani</string>
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="donate">Donate</string>
+    <string name="Rs">\u20B9</string>
+    <string name="if_you_like_to_contribute_more_than_membership_please_click_here">If you like to contribute more than membership? Please<font fgcolor='#0000FF'> click here</font></string>
+    <string name="post_like_label">%1d Likes</string>
+
+    <!--    Profile-->
+    <string name="logout_label">Logout</string>
+    <string name="post_count_label">%1d Posts</string>
+    <string name="edit_profile_label">Edit Profile</string>
+    <string name="my_posts_label">My Posts</string>
+    <string name="change_photo_label">Change Photo</string>
+    <string name="name_hint">Name</string>
+    <string name="bio_hint">Bio</string>
+    <string name="private_info_label">Private Information</string>
+    <string name="email_label">Email Address</string>
+    <string name="no_posts">No Posts</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_passages_and_more_recently_with_desktop_publishing_software_like_aldus_pagemaker_including_versions_of_lorem_ipsum"><font fgcolor='#000'><b>Lorem Ipsum</b> </font> is simply dummy text of the printing and typesetting industry.Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="item_nature_title">Bronze membership %d</string>
+
+</resources>

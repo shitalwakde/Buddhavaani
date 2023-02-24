@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.lastmile.buddhavaani.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_eventsFragment"
+            app:destination="@id/eventsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fundraisersFragment"
+            app:destination="@id/fundraisersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_membershipFragment"
+            app:destination="@id/membershipFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_projectsFragment"
+            app:destination="@id/projectsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_viharFragment"
+            app:destination="@id/viharFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.lastmile.buddhavaani.ui.events.EventsFragment"
+        android:label="Events"
+        tools:layout="@layout/fragment_events">
+    </fragment>
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.lastmile.buddhavaani.ui.feed.FeedFragment"
+        android:label="Feed"
+        tools:layout="@layout/fragment_feed">
+    </fragment>
+    <fragment
+        android:id="@+id/fundraisersFragment"
+        android:name="com.lastmile.buddhavaani.ui.fundraisers.FundraisersFragment"
+        android:label="Fundraisers"
+        tools:layout="@layout/fragment_fundraisers">
+    </fragment>
+    <fragment
+        android:id="@+id/membershipFragment"
+        android:name="com.lastmile.buddhavaani.ui.membership.MembershipFragment"
+        android:label="Membership"
+        tools:layout="@layout/fragment_membership" />
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="com.lastmile.buddhavaani.ui.projects.ProjectsFragment"
+        android:label="Projects"
+        tools:layout="@layout/fragment_projects"/>
+    <fragment
+        android:id="@+id/viharFragment"
+        android:name="com.lastmile.buddhavaani.ui.vihar.ViharFragment"
+        android:label="Vihar"
+        tools:layout="@layout/fragment_vihar">
+        <action
+            android:id="@+id/action_viharFragment_to_homeFragment"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.lastmile.buddhavaani.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/navigation_home"/>
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.lastmile.buddhavaani.ui.notification.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification"/>
+</navigation>
